@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Post Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/blogpost.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <style>
+    /* Typography */
+    h1 {
+      font-weight: bold;
+      text-decoration: underline;
+      color: #333;
+    }
+
+    h2 {
+      font-style: italic;
+    }
+
+    p {
+      font-weight: bold;
+      text-decoration: underline;
+      font-style: italic;
+    }
+
+    /* Link */
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Quotes */
+    blockquote {
+      font-family: 'Times New Roman', serif;
+      font-size: 18px;
+      font-style: italic;
+      border-left: 5px solid #333;
+      padding-left: 10px;
+    }
+
+    /* Colors */
+    .color-1 {
+      background-color: #f5f5f5;
+    }
+
+    .text-success {
+      color: #28a745 !important;
+    }
+
+    /* Components */
+    .avatar {
+      border-radius: 50%;
+    }
+
+    .author-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .name {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    .title {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .bio {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .social-sharing a {
+      color: #007bff;
+      margin-right: 10px;
+    }
+
+    /* Adjustments */
+    #tit {
+      display: flex;
+      align-items: center;
+    }
+
+    #tit b {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="home.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blogPost.html">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br><br>
+  <div id="tit">
+    <b>Blog Post</b>&nbsp;&nbsp;&nbsp;
+    <img class="avatar" src="image/omanflag.jpg" alt="Author Avatar" width="120px">
+  </div>
+  <br>
+
+  <header class="color-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Author Avatar">
+        </div>
+        
+        <div class="col-md-8">
+          <div class="blog-card">
+            <div class="author-info">
+              <img class="avatar" src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Author Avatar">
+              <div class="details">
+                <h2 class="name text-success">John Doe</h2>
+                <h3 class="title text-success">Software Engineer</h3>
+                <p class="current-company text-success">Google</p>
+                <p class="bio text-success">John Doe is a software engineer at Google. He has been working in the tech industry for over 10 years. He is passionate about building innovative products that make people's lives easier.</p>
+                <div class="social-sharing">
+                  <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="blog-card">
+          <h3>The most famous tourist attractions in the Sultanate of Oman</h3>
+          <p>
+            Oman, located on the southeastern coast of the Arabian Peninsula, is known for its rich history, stunning landscapes, and unique cultural heritage. Here are some of the most famous tourist attractions in the Sultanate of Oman:
+
+            Sultan Qaboos Grand Mosque: Located in Muscat, the capital city of Oman, this magnificent mosque is a popular tourist attraction. It is known for its stunning architecture, intricate Islamic designs, and the second-largest hand-woven carpet in the world.
+
+            Mutrah Corniche: This picturesque waterfront promenade in Muscat offers beautiful views of the harbor, traditional Omani architecture, and a lively atmosphere. Visitors can explore the Mut
+            Mutrah Souq, a bustling market known for its traditional handicrafts, spices, and souvenirs.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-card">
+          <h3>Salalah, Oman: A City of History, Culture, and Natural Beauty</h3>
+          <p>
+            Salalah, located in the southern part of Oman, is a captivating city known for its rich history, vibrant culture, and stunning natural beauty. Here are some highlights of what Salalah has to offer:
+
+            Historical Sites: Salalah is steeped in history, and there are several historical sites worth exploring. The Al-Baleed Archaeological Park is a UNESCO World Heritage Site that showcases the ruins of an ancient port city, including the well-preserved Al-Baleed Fort. The nearby Sumhuram Archaeological Park offers insights into the ancient frankincense trade and features the ruins of the ancient city of Sumhuram.
+
+            Frankincense Land: Salalah is often referred to as the "Frankincense Land" because of its historical association with the valuable resin. Visitors can learn about the significance of frankincense.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-card">
+          <h3>The Best of Both Worlds: A Guide
+<!-- Continued -->
+to Muscat, Oman</h3>
+<p>
+  Muscat, the capital city of Oman, seamlessly combines traditional charm with modern sophistication. Here's a guide to experiencing the best of both worlds in Muscat:
+
+  Historic Landmarks: Start your journey in Muscat by exploring its rich history and heritage. The Sultan Qaboos Grand Mosque, with its stunning architecture and intricate details, is a must-visit. The majestic Al Jalali and Al Mirani forts, guarding the entrance to the old harbor, offer panoramic views of the city. The Royal Opera House Muscat, a blend of traditional Omani and contemporary design, hosts world-class performances.
+
+  Old Muttrah Souq: Immerse yourself in the bustling atmosphere of the Old Muttrah Souq. This traditional market is filled with narrow alleys, vibrant shops, and stalls selling spices, textiles, jewelry, and Omani handicrafts.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+&copy; 2023 Your Company. All rights reserved.
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

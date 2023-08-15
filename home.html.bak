@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <style>
+    /* Typography */
+   
+  </style>
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand" href="home.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blogPost.html">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <img class="avatar" src="image/omanflag.jpg" alt="Author Avatar" width="120px">
+    <div class="row">
+      
+      <div class="col-md-4">
+        <div class="blog-card">
+          <img src="image/caption.jpg" alt="Blog Post Image">
+          <h3>The most famous tourist attractions in the Sultanate of Oman</h3>
+          <p>The Sultanate of Oman is a beautiful country located in the Middle East. It is known for its stunning natural scenery, rich history, and
+            friendly people. Oman is home to a number of world-famous tourist attractions, including...</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="blog-card">
+          <img src="image/WhatsApp Image 2023-07-02 at 03.36.19.jpeg" alt="Blog Post Image">
+          <h3>Salalah, Oman: A City of History, Culture, and Natural Beauty</h3>
+          <p>This title reflects the diversity of Salalah and its many attractions. It is a city with a rich history and culture, as evidenced by the Frankincense Trail, the Majlis al-Jinn, and the Al Baleed Archaeological Park</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="blog-card">
+          <img src="image/mucats.jpg" alt="Blog Post Image">
+          <h3>The Best of Both Worlds: A Guide to Muscat, Oman</h3>
+          <p>Muscat is a port city located on the Gulf of Oman. It is the largest city in Oman and has a population of over 1.5 million people. The city is home to a number of forts, palaces, and...</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="blogPost.html" class="btn btn-primary">Next Page</a>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-2 mt-4">
+    &copy; Ghadeer Salim Alkalbani.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
